@@ -1,0 +1,282 @@
+[
+  {
+    "point_id": "ACC_制冷瞬时COP",
+    "brick_class": "brick:Sensor",
+    "device": null,
+    "source": "rule",
+    "confidence": 0.98
+  },
+  {
+    "point_id": "ACC_制冷瞬时EER",
+    "brick_class": "brick:Sensor",
+    "device": null,
+    "source": "rule",
+    "confidence": 0.98
+  },
+  {
+    "point_id": "ACC_室外温度",
+    "brick_class": "brick:Outside_Air_Temperature_Sensor",
+    "device": null,
+    "source": "rule",
+    "confidence": 0.97
+  },
+  {
+    "point_id": "ACC_相对湿度",
+    "brick_class": "brick:Relative_Humidity_Sensor",
+    "device": null,
+    "source": "rule",
+    "confidence": 0.97
+  },
+  {
+    "point_id": "WCC_冷冻水流量m3_h",
+    "brick_class": "brick:Chilled_Water_Flow_Sensor",
+    "device": null,
+    "source": "rule",
+    "confidence": 0.98
+  },
+  {
+    "point_id": "综合_湿球温度",
+    "brick_class": "brick:Air_Wet_Bulb_Temperature_Sensor",
+    "device": null,
+    "source": "rule",
+    "confidence": 0.98
+  },
+  {
+    "point_id": "ACC_ACC总功率",
+    "brick_class": "brick:Electric_Power_Sensor",
+    "device": "chiller_plant",
+    "source": "rule",
+    "confidence": 0.97
+  },
+  {
+    "point_id": "ACC_上一时刻的冷负荷",
+    "brick_class": "brick:Thermal_Power_Sensor",
+    "device": "chiller_plant",
+    "source": "llm_mock",
+    "confidence": 0.75
+  },
+  {
+    "point_id": "ACC_主机1功率",
+    "brick_class": "brick:Electric_Power_Sensor",
+    "device": "chiller_01",
+    "source": "rule",
+    "confidence": 0.97
+  },
+  {
+    "point_id": "ACC_主机2功率",
+    "brick_class": "brick:Electric_Power_Sensor",
+    "device": "chiller_02",
+    "source": "rule",
+    "confidence": 0.97
+  },
+  {
+    "point_id": "ACC_主机3功率",
+    "brick_class": "brick:Electric_Power_Sensor",
+    "device": "chiller_03",
+    "source": "rule",
+    "confidence": 0.97
+  },
+  {
+    "point_id": "ACC_主机4功率",
+    "brick_class": "brick:Electric_Power_Sensor",
+    "device": "chiller_04",
+    "source": "rule",
+    "confidence": 0.97
+  },
+  {
+    "point_id": "ACC_主机5功率",
+    "brick_class": "brick:Electric_Power_Sensor",
+    "device": "chiller_05",
+    "source": "rule",
+    "confidence": 0.97
+  },
+  {
+    "point_id": "ACC_主机6功率",
+    "brick_class": "brick:Electric_Power_Sensor",
+    "device": "chiller_06",
+    "source": "rule",
+    "confidence": 0.97
+  },
+  {
+    "point_id": "ACC_主机7功率",
+    "brick_class": "brick:Electric_Power_Sensor",
+    "device": "chiller_07",
+    "source": "rule",
+    "confidence": 0.97
+  },
+  {
+    "point_id": "ACC_主机8功率",
+    "brick_class": "brick:Electric_Power_Sensor",
+    "device": "chiller_08",
+    "source": "rule",
+    "confidence": 0.97
+  },
+  {
+    "point_id": "ACC_主机9功率",
+    "brick_class": "brick:Electric_Power_Sensor",
+    "device": "chiller_09",
+    "source": "rule",
+    "confidence": 0.97
+  },
+  {
+    "point_id": "ACC_冷负荷",
+    "brick_class": "brick:Thermal_Power_Sensor",
+    "device": "chiller_plant",
+    "source": "llm_mock",
+    "confidence": 0.92
+  },
+  {
+    "point_id": "ACC_昨天同时刻的冷负荷",
+    "brick_class": "brick:Thermal_Power_Sensor",
+    "device": "chiller_plant",
+    "source": "llm_mock",
+    "confidence": 0.75
+  },
+  {
+    "point_id": "WCC_主机1冷冻供水温度",
+    "brick_class": "brick:Chilled_Water_Supply_Temperature_Sensor",
+    "device": "chiller_01",
+    "source": "rule",
+    "confidence": 0.98
+  },
+  {
+    "point_id": "WCC_主机1冷冻回水温度",
+    "brick_class": "brick:Chilled_Water_Return_Temperature_Sensor",
+    "device": "chiller_01",
+    "source": "rule",
+    "confidence": 0.98
+  },
+  {
+    "point_id": "WCC_主机2冷冻供水温度",
+    "brick_class": "brick:Chilled_Water_Supply_Temperature_Sensor",
+    "device": "chiller_02",
+    "source": "rule",
+    "confidence": 0.98
+  },
+  {
+    "point_id": "WCC_主机2冷冻回水温度",
+    "brick_class": "brick:Chilled_Water_Return_Temperature_Sensor",
+    "device": "chiller_02",
+    "source": "rule",
+    "confidence": 0.98
+  },
+  {
+    "point_id": "WCC_主机3冷冻供水温度",
+    "brick_class": "brick:Chilled_Water_Supply_Temperature_Sensor",
+    "device": "chiller_03",
+    "source": "rule",
+    "confidence": 0.98
+  },
+  {
+    "point_id": "WCC_主机3冷冻回水温度",
+    "brick_class": "brick:Chilled_Water_Return_Temperature_Sensor",
+    "device": "chiller_03",
+    "source": "rule",
+    "confidence": 0.98
+  },
+  {
+    "point_id": "WCC_主机4冷冻供水温度",
+    "brick_class": "brick:Chilled_Water_Supply_Temperature_Sensor",
+    "device": "chiller_04",
+    "source": "rule",
+    "confidence": 0.98
+  },
+  {
+    "point_id": "WCC_主机4冷冻回水温度",
+    "brick_class": "brick:Chilled_Water_Return_Temperature_Sensor",
+    "device": "chiller_04",
+    "source": "rule",
+    "confidence": 0.98
+  },
+  {
+    "point_id": "WCC_主机5冷冻供水温度",
+    "brick_class": "brick:Chilled_Water_Supply_Temperature_Sensor",
+    "device": "chiller_05",
+    "source": "rule",
+    "confidence": 0.98
+  },
+  {
+    "point_id": "WCC_主机5冷冻回水温度",
+    "brick_class": "brick:Chilled_Water_Return_Temperature_Sensor",
+    "device": "chiller_05",
+    "source": "rule",
+    "confidence": 0.98
+  },
+  {
+    "point_id": "WCC_冷冻泵1运行频率",
+    "brick_class": "brick:Frequency_Sensor",
+    "device": "pump_01",
+    "source": "rule",
+    "confidence": 0.97
+  },
+  {
+    "point_id": "WCC_冷冻泵2运行频率",
+    "brick_class": "brick:Frequency_Sensor",
+    "device": "pump_02",
+    "source": "rule",
+    "confidence": 0.97
+  },
+  {
+    "point_id": "WCC_冷冻泵3运行频率",
+    "brick_class": "brick:Frequency_Sensor",
+    "device": "pump_03",
+    "source": "rule",
+    "confidence": 0.97
+  },
+  {
+    "point_id": "WCC_冷冻泵4运行频率",
+    "brick_class": "brick:Frequency_Sensor",
+    "device": "pump_04",
+    "source": "rule",
+    "confidence": 0.97
+  },
+  {
+    "point_id": "WCC_冷冻泵5运行频率",
+    "brick_class": "brick:Frequency_Sensor",
+    "device": "pump_05",
+    "source": "rule",
+    "confidence": 0.97
+  },
+  {
+    "point_id": "综合_冷水机房总功率",
+    "brick_class": "brick:Electric_Power_Sensor",
+    "device": "chiller_plant",
+    "source": "rule",
+    "confidence": 0.97
+  },
+  {
+    "point_id": "综合_冷水机房调整后的功率",
+    "brick_class": "brick:Electric_Power_Sensor",
+    "device": "chiller_plant",
+    "source": "rule",
+    "confidence": 0.97
+  },
+  {
+    "point_id": "综合_总负荷",
+    "brick_class": "brick:Thermal_Power_Sensor",
+    "device": "chiller_plant",
+    "source": "llm_mock",
+    "confidence": 0.82
+  },
+  {
+    "point_id": "综合_瞬时制冷量",
+    "brick_class": "brick:Thermal_Power_Sensor",
+    "device": "chiller_plant",
+    "source": "llm_mock",
+    "confidence": 0.88
+  },
+  {
+    "point_id": "综合_风机机房功率",
+    "brick_class": "brick:Electric_Power_Sensor",
+    "device": "fan_room",
+    "source": "rule",
+    "confidence": 0.95
+  },
+  {
+    "point_id": "综合_风机机房调整后的功率",
+    "brick_class": "brick:Electric_Power_Sensor",
+    "device": "fan_room",
+    "source": "rule",
+    "confidence": 0.95
+  }
+]

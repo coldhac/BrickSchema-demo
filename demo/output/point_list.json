@@ -1,0 +1,322 @@
+[
+  {
+    "point_id": "ACC.主机8功率",
+    "name": "主机8功率",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "ACC_raw",
+    "system": "ACC",
+    "device_hint": "chiller_08"
+  },
+  {
+    "point_id": "ACC.主机7功率",
+    "name": "主机7功率",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "ACC_raw",
+    "system": "ACC",
+    "device_hint": "chiller_07"
+  },
+  {
+    "point_id": "ACC.主机9功率",
+    "name": "主机9功率",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "ACC_raw",
+    "system": "ACC",
+    "device_hint": "chiller_09"
+  },
+  {
+    "point_id": "ACC.主机4功率",
+    "name": "主机4功率",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "ACC_raw",
+    "system": "ACC",
+    "device_hint": "chiller_04"
+  },
+  {
+    "point_id": "ACC.主机3功率",
+    "name": "主机3功率",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "ACC_raw",
+    "system": "ACC",
+    "device_hint": "chiller_03"
+  },
+  {
+    "point_id": "ACC.主机6功率",
+    "name": "主机6功率",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "ACC_raw",
+    "system": "ACC",
+    "device_hint": "chiller_06"
+  },
+  {
+    "point_id": "ACC.主机5功率",
+    "name": "主机5功率",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "ACC_raw",
+    "system": "ACC",
+    "device_hint": "chiller_05"
+  },
+  {
+    "point_id": "ACC.主机1功率",
+    "name": "主机1功率",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "ACC_raw",
+    "system": "ACC",
+    "device_hint": "chiller_01"
+  },
+  {
+    "point_id": "ACC.主机2功率",
+    "name": "主机2功率",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "ACC_raw",
+    "system": "ACC",
+    "device_hint": "chiller_02"
+  },
+  {
+    "point_id": "ACC.ACC总功率",
+    "name": "ACC总功率",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "ACC_raw",
+    "system": "ACC",
+    "device_hint": "chiller_plant"
+  },
+  {
+    "point_id": "ACC.制冷瞬时COP",
+    "name": "制冷瞬时COP",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "ACC_raw",
+    "system": "ACC",
+    "device_hint": null
+  },
+  {
+    "point_id": "ACC.制冷瞬时EER",
+    "name": "制冷瞬时EER",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "ACC_raw",
+    "system": "ACC",
+    "device_hint": null
+  },
+  {
+    "point_id": "ACC.冷负荷",
+    "name": "冷负荷",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "ACC_raw",
+    "system": "ACC",
+    "device_hint": null
+  },
+  {
+    "point_id": "ACC.室外温度",
+    "name": "室外温度",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "ACC_raw",
+    "system": "ACC",
+    "device_hint": null
+  },
+  {
+    "point_id": "ACC.相对湿度",
+    "name": "相对湿度",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "ACC_raw",
+    "system": "ACC",
+    "device_hint": null
+  },
+  {
+    "point_id": "ACC.昨天同时刻的冷负荷",
+    "name": "昨天同时刻的冷负荷",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "ACC_raw",
+    "system": "ACC",
+    "device_hint": null
+  },
+  {
+    "point_id": "ACC.上一时刻的冷负荷",
+    "name": "上一时刻的冷负荷",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "ACC_raw",
+    "system": "ACC",
+    "device_hint": null
+  },
+  {
+    "point_id": "WCC.冷冻水流量m3/h",
+    "name": "冷冻水流量m3/h",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "WCC_raw",
+    "system": "WCC",
+    "device_hint": null
+  },
+  {
+    "point_id": "WCC.主机1冷冻供水温度",
+    "name": "主机1冷冻供水温度",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "WCC_raw",
+    "system": "WCC",
+    "device_hint": "chiller_01"
+  },
+  {
+    "point_id": "WCC.主机1冷冻回水温度",
+    "name": "主机1冷冻回水温度",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "WCC_raw",
+    "system": "WCC",
+    "device_hint": "chiller_01"
+  },
+  {
+    "point_id": "WCC.主机2冷冻供水温度",
+    "name": "主机2冷冻供水温度",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "WCC_raw",
+    "system": "WCC",
+    "device_hint": "chiller_02"
+  },
+  {
+    "point_id": "WCC.主机2冷冻回水温度",
+    "name": "主机2冷冻回水温度",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "WCC_raw",
+    "system": "WCC",
+    "device_hint": "chiller_02"
+  },
+  {
+    "point_id": "WCC.主机3冷冻供水温度",
+    "name": "主机3冷冻供水温度",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "WCC_raw",
+    "system": "WCC",
+    "device_hint": "chiller_03"
+  },
+  {
+    "point_id": "WCC.主机3冷冻回水温度",
+    "name": "主机3冷冻回水温度",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "WCC_raw",
+    "system": "WCC",
+    "device_hint": "chiller_03"
+  },
+  {
+    "point_id": "WCC.主机4冷冻供水温度",
+    "name": "主机4冷冻供水温度",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "WCC_raw",
+    "system": "WCC",
+    "device_hint": "chiller_04"
+  },
+  {
+    "point_id": "WCC.主机4冷冻回水温度",
+    "name": "主机4冷冻回水温度",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "WCC_raw",
+    "system": "WCC",
+    "device_hint": "chiller_04"
+  },
+  {
+    "point_id": "WCC.主机5冷冻回水温度",
+    "name": "主机5冷冻回水温度",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "WCC_raw",
+    "system": "WCC",
+    "device_hint": "chiller_05"
+  },
+  {
+    "point_id": "WCC.主机5冷冻供水温度",
+    "name": "主机5冷冻供水温度",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "WCC_raw",
+    "system": "WCC",
+    "device_hint": "chiller_05"
+  },
+  {
+    "point_id": "WCC.冷冻泵1运行频率",
+    "name": "冷冻泵1运行频率",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "WCC_raw",
+    "system": "WCC",
+    "device_hint": "pump_01"
+  },
+  {
+    "point_id": "WCC.冷冻泵2运行频率",
+    "name": "冷冻泵2运行频率",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "WCC_raw",
+    "system": "WCC",
+    "device_hint": "pump_02"
+  },
+  {
+    "point_id": "WCC.冷冻泵3运行频率",
+    "name": "冷冻泵3运行频率",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "WCC_raw",
+    "system": "WCC",
+    "device_hint": "pump_03"
+  },
+  {
+    "point_id": "WCC.冷冻泵4运行频率",
+    "name": "冷冻泵4运行频率",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "WCC_raw",
+    "system": "WCC",
+    "device_hint": "pump_04"
+  },
+  {
+    "point_id": "WCC.冷冻泵5运行频率",
+    "name": "冷冻泵5运行频率",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "WCC_raw",
+    "system": "WCC",
+    "device_hint": "pump_05"
+  },
+  {
+    "point_id": "综合.湿球温度",
+    "name": "湿球温度",
+    "source_file": "某项目-分钟级数据.xlsx",
+    "sheet": "Sheet1",
+    "system": "综合",
+    "device_hint": null
+  },
+  {
+    "point_id": "综合.冷水机房总功率",
+    "name": "冷水机房总功率",
+    "source_file": "某项目-分钟级数据.xlsx",
+    "sheet": "Sheet1",
+    "system": "综合",
+    "device_hint": "chiller_plant"
+  },
+  {
+    "point_id": "综合.冷水机房调整后的功率",
+    "name": "冷水机房调整后的功率",
+    "source_file": "某项目-分钟级数据.xlsx",
+    "sheet": "Sheet1",
+    "system": "综合",
+    "device_hint": "chiller_plant"
+  },
+  {
+    "point_id": "综合.风机机房功率",
+    "name": "风机机房功率",
+    "source_file": "某项目-分钟级数据.xlsx",
+    "sheet": "Sheet1",
+    "system": "综合",
+    "device_hint": "fan_room"
+  },
+  {
+    "point_id": "综合.风机机房调整后的功率",
+    "name": "风机机房调整后的功率",
+    "source_file": "某项目-分钟级数据.xlsx",
+    "sheet": "Sheet1",
+    "system": "综合",
+    "device_hint": "fan_room"
+  },
+  {
+    "point_id": "综合.瞬时制冷量",
+    "name": "瞬时制冷量",
+    "source_file": "某项目-分钟级数据.xlsx",
+    "sheet": "Sheet1",
+    "system": "综合",
+    "device_hint": null
+  },
+  {
+    "point_id": "综合.总负荷",
+    "name": "总负荷",
+    "source_file": "某项目-分钟级数据.xlsx",
+    "sheet": "Sheet1",
+    "system": "综合",
+    "device_hint": null
+  }
+]

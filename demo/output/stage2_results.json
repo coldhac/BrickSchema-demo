@@ -1,0 +1,64 @@
+{
+  "classifications": [
+    {
+      "point_id": "ACC.冷负荷",
+      "name": "冷负荷",
+      "device_hint": "chiller_plant",
+      "brick_class": "brick:Thermal_Power_Sensor",
+      "confidence": 0.92,
+      "evidence": [
+        "LLM: '冷负荷'为制冷站典型用语，即制冷热功率需求"
+      ],
+      "source": "llm_mock"
+    },
+    {
+      "point_id": "ACC.昨天同时刻的冷负荷",
+      "name": "昨天同时刻的冷负荷",
+      "device_hint": "chiller_plant",
+      "brick_class": "brick:Thermal_Power_Sensor",
+      "confidence": 0.75,
+      "evidence": [
+        "LLM: 与'冷负荷'同类但含时间偏移语义，归类为同一 Brick 类",
+        "LLM: 低置信度，建议人工确认是否应归入派生点位类别"
+      ],
+      "source": "llm_mock"
+    },
+    {
+      "point_id": "ACC.上一时刻的冷负荷",
+      "name": "上一时刻的冷负荷",
+      "device_hint": "chiller_plant",
+      "brick_class": "brick:Thermal_Power_Sensor",
+      "confidence": 0.75,
+      "evidence": [
+        "LLM: 与'昨天同时刻的冷负荷'同类，含时间偏移",
+        "LLM: 低置信度，建议人工确认"
+      ],
+      "source": "llm_mock"
+    },
+    {
+      "point_id": "综合.瞬时制冷量",
+      "name": "瞬时制冷量",
+      "device_hint": "chiller_plant",
+      "brick_class": "brick:Thermal_Power_Sensor",
+      "confidence": 0.88,
+      "evidence": [
+        "LLM: '瞬时制冷量'语义为当前制冷功率，对应 Brick 热功率传感器",
+        "LLM: 制冷系统上下文支持此分类"
+      ],
+      "source": "llm_mock"
+    },
+    {
+      "point_id": "综合.总负荷",
+      "name": "总负荷",
+      "device_hint": "chiller_plant",
+      "brick_class": "brick:Thermal_Power_Sensor",
+      "confidence": 0.82,
+      "evidence": [
+        "LLM: '总负荷'在制冷站上下文中指总冷负荷",
+        "LLM: 与冷水机房功率点位同属系统级测量"
+      ],
+      "source": "llm_mock"
+    }
+  ],
+  "unresolved": []
+}

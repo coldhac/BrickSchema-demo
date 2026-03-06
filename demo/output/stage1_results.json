@@ -1,0 +1,387 @@
+[
+  {
+    "point_id": "ACC.主机8功率",
+    "name": "主机8功率",
+    "device_hint": "chiller_08",
+    "brick_class": "brick:Electric_Power_Sensor",
+    "confidence": 0.97,
+    "evidence": [
+      "名称匹配规则: '主机\\d+功率'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "ACC.主机7功率",
+    "name": "主机7功率",
+    "device_hint": "chiller_07",
+    "brick_class": "brick:Electric_Power_Sensor",
+    "confidence": 0.97,
+    "evidence": [
+      "名称匹配规则: '主机\\d+功率'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "ACC.主机9功率",
+    "name": "主机9功率",
+    "device_hint": "chiller_09",
+    "brick_class": "brick:Electric_Power_Sensor",
+    "confidence": 0.97,
+    "evidence": [
+      "名称匹配规则: '主机\\d+功率'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "ACC.主机4功率",
+    "name": "主机4功率",
+    "device_hint": "chiller_04",
+    "brick_class": "brick:Electric_Power_Sensor",
+    "confidence": 0.97,
+    "evidence": [
+      "名称匹配规则: '主机\\d+功率'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "ACC.主机3功率",
+    "name": "主机3功率",
+    "device_hint": "chiller_03",
+    "brick_class": "brick:Electric_Power_Sensor",
+    "confidence": 0.97,
+    "evidence": [
+      "名称匹配规则: '主机\\d+功率'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "ACC.主机6功率",
+    "name": "主机6功率",
+    "device_hint": "chiller_06",
+    "brick_class": "brick:Electric_Power_Sensor",
+    "confidence": 0.97,
+    "evidence": [
+      "名称匹配规则: '主机\\d+功率'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "ACC.主机5功率",
+    "name": "主机5功率",
+    "device_hint": "chiller_05",
+    "brick_class": "brick:Electric_Power_Sensor",
+    "confidence": 0.97,
+    "evidence": [
+      "名称匹配规则: '主机\\d+功率'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "ACC.主机1功率",
+    "name": "主机1功率",
+    "device_hint": "chiller_01",
+    "brick_class": "brick:Electric_Power_Sensor",
+    "confidence": 0.97,
+    "evidence": [
+      "名称匹配规则: '主机\\d+功率'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "ACC.主机2功率",
+    "name": "主机2功率",
+    "device_hint": "chiller_02",
+    "brick_class": "brick:Electric_Power_Sensor",
+    "confidence": 0.97,
+    "evidence": [
+      "名称匹配规则: '主机\\d+功率'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "ACC.ACC总功率",
+    "name": "ACC总功率",
+    "device_hint": "chiller_plant",
+    "brick_class": "brick:Electric_Power_Sensor",
+    "confidence": 0.97,
+    "evidence": [
+      "名称匹配规则: 'ACC总功率|冷水机房总功率|冷水机房调整后的功率'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "ACC.制冷瞬时COP",
+    "name": "制冷瞬时COP",
+    "device_hint": null,
+    "brick_class": "brick:Sensor",
+    "confidence": 0.98,
+    "evidence": [
+      "名称匹配规则: '制冷瞬时COP|瞬时COP'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "ACC.制冷瞬时EER",
+    "name": "制冷瞬时EER",
+    "device_hint": null,
+    "brick_class": "brick:Sensor",
+    "confidence": 0.98,
+    "evidence": [
+      "名称匹配规则: '制冷瞬时EER|瞬时EER'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "ACC.室外温度",
+    "name": "室外温度",
+    "device_hint": null,
+    "brick_class": "brick:Outside_Air_Temperature_Sensor",
+    "confidence": 0.97,
+    "evidence": [
+      "名称匹配规则: '室外温度|outdoor.?temp'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "ACC.相对湿度",
+    "name": "相对湿度",
+    "device_hint": null,
+    "brick_class": "brick:Relative_Humidity_Sensor",
+    "confidence": 0.97,
+    "evidence": [
+      "名称匹配规则: '相对湿度|relative.?humidity'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "WCC.冷冻水流量m3/h",
+    "name": "冷冻水流量m3/h",
+    "device_hint": null,
+    "brick_class": "brick:Chilled_Water_Flow_Sensor",
+    "confidence": 0.98,
+    "evidence": [
+      "名称匹配规则: '冷冻水流量|chilled.?water.?flow'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "WCC.主机1冷冻供水温度",
+    "name": "主机1冷冻供水温度",
+    "device_hint": "chiller_01",
+    "brick_class": "brick:Chilled_Water_Supply_Temperature_Sensor",
+    "confidence": 0.98,
+    "evidence": [
+      "名称匹配规则: '冷冻供水温度|供水温度'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "WCC.主机1冷冻回水温度",
+    "name": "主机1冷冻回水温度",
+    "device_hint": "chiller_01",
+    "brick_class": "brick:Chilled_Water_Return_Temperature_Sensor",
+    "confidence": 0.98,
+    "evidence": [
+      "名称匹配规则: '冷冻回水温度|回水温度'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "WCC.主机2冷冻供水温度",
+    "name": "主机2冷冻供水温度",
+    "device_hint": "chiller_02",
+    "brick_class": "brick:Chilled_Water_Supply_Temperature_Sensor",
+    "confidence": 0.98,
+    "evidence": [
+      "名称匹配规则: '冷冻供水温度|供水温度'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "WCC.主机2冷冻回水温度",
+    "name": "主机2冷冻回水温度",
+    "device_hint": "chiller_02",
+    "brick_class": "brick:Chilled_Water_Return_Temperature_Sensor",
+    "confidence": 0.98,
+    "evidence": [
+      "名称匹配规则: '冷冻回水温度|回水温度'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "WCC.主机3冷冻供水温度",
+    "name": "主机3冷冻供水温度",
+    "device_hint": "chiller_03",
+    "brick_class": "brick:Chilled_Water_Supply_Temperature_Sensor",
+    "confidence": 0.98,
+    "evidence": [
+      "名称匹配规则: '冷冻供水温度|供水温度'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "WCC.主机3冷冻回水温度",
+    "name": "主机3冷冻回水温度",
+    "device_hint": "chiller_03",
+    "brick_class": "brick:Chilled_Water_Return_Temperature_Sensor",
+    "confidence": 0.98,
+    "evidence": [
+      "名称匹配规则: '冷冻回水温度|回水温度'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "WCC.主机4冷冻供水温度",
+    "name": "主机4冷冻供水温度",
+    "device_hint": "chiller_04",
+    "brick_class": "brick:Chilled_Water_Supply_Temperature_Sensor",
+    "confidence": 0.98,
+    "evidence": [
+      "名称匹配规则: '冷冻供水温度|供水温度'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "WCC.主机4冷冻回水温度",
+    "name": "主机4冷冻回水温度",
+    "device_hint": "chiller_04",
+    "brick_class": "brick:Chilled_Water_Return_Temperature_Sensor",
+    "confidence": 0.98,
+    "evidence": [
+      "名称匹配规则: '冷冻回水温度|回水温度'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "WCC.主机5冷冻回水温度",
+    "name": "主机5冷冻回水温度",
+    "device_hint": "chiller_05",
+    "brick_class": "brick:Chilled_Water_Return_Temperature_Sensor",
+    "confidence": 0.98,
+    "evidence": [
+      "名称匹配规则: '冷冻回水温度|回水温度'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "WCC.主机5冷冻供水温度",
+    "name": "主机5冷冻供水温度",
+    "device_hint": "chiller_05",
+    "brick_class": "brick:Chilled_Water_Supply_Temperature_Sensor",
+    "confidence": 0.98,
+    "evidence": [
+      "名称匹配规则: '冷冻供水温度|供水温度'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "WCC.冷冻泵1运行频率",
+    "name": "冷冻泵1运行频率",
+    "device_hint": "pump_01",
+    "brick_class": "brick:Frequency_Sensor",
+    "confidence": 0.97,
+    "evidence": [
+      "名称匹配规则: '冷冻泵\\d+运行频率|泵.{0,4}运行频率'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "WCC.冷冻泵2运行频率",
+    "name": "冷冻泵2运行频率",
+    "device_hint": "pump_02",
+    "brick_class": "brick:Frequency_Sensor",
+    "confidence": 0.97,
+    "evidence": [
+      "名称匹配规则: '冷冻泵\\d+运行频率|泵.{0,4}运行频率'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "WCC.冷冻泵3运行频率",
+    "name": "冷冻泵3运行频率",
+    "device_hint": "pump_03",
+    "brick_class": "brick:Frequency_Sensor",
+    "confidence": 0.97,
+    "evidence": [
+      "名称匹配规则: '冷冻泵\\d+运行频率|泵.{0,4}运行频率'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "WCC.冷冻泵4运行频率",
+    "name": "冷冻泵4运行频率",
+    "device_hint": "pump_04",
+    "brick_class": "brick:Frequency_Sensor",
+    "confidence": 0.97,
+    "evidence": [
+      "名称匹配规则: '冷冻泵\\d+运行频率|泵.{0,4}运行频率'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "WCC.冷冻泵5运行频率",
+    "name": "冷冻泵5运行频率",
+    "device_hint": "pump_05",
+    "brick_class": "brick:Frequency_Sensor",
+    "confidence": 0.97,
+    "evidence": [
+      "名称匹配规则: '冷冻泵\\d+运行频率|泵.{0,4}运行频率'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "综合.湿球温度",
+    "name": "湿球温度",
+    "device_hint": null,
+    "brick_class": "brick:Air_Wet_Bulb_Temperature_Sensor",
+    "confidence": 0.98,
+    "evidence": [
+      "名称匹配规则: '湿球温度|wet.?bulb'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "综合.冷水机房总功率",
+    "name": "冷水机房总功率",
+    "device_hint": "chiller_plant",
+    "brick_class": "brick:Electric_Power_Sensor",
+    "confidence": 0.97,
+    "evidence": [
+      "名称匹配规则: 'ACC总功率|冷水机房总功率|冷水机房调整后的功率'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "综合.冷水机房调整后的功率",
+    "name": "冷水机房调整后的功率",
+    "device_hint": "chiller_plant",
+    "brick_class": "brick:Electric_Power_Sensor",
+    "confidence": 0.97,
+    "evidence": [
+      "名称匹配规则: 'ACC总功率|冷水机房总功率|冷水机房调整后的功率'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "综合.风机机房功率",
+    "name": "风机机房功率",
+    "device_hint": "fan_room",
+    "brick_class": "brick:Electric_Power_Sensor",
+    "confidence": 0.95,
+    "evidence": [
+      "名称匹配规则: '风机机房功率|风机机房调整后的功率'"
+    ],
+    "source": "rule"
+  },
+  {
+    "point_id": "综合.风机机房调整后的功率",
+    "name": "风机机房调整后的功率",
+    "device_hint": "fan_room",
+    "brick_class": "brick:Electric_Power_Sensor",
+    "confidence": 0.95,
+    "evidence": [
+      "名称匹配规则: '风机机房功率|风机机房调整后的功率'"
+    ],
+    "source": "rule"
+  }
+]

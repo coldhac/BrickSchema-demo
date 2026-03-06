@@ -1,0 +1,42 @@
+[
+  {
+    "point_id": "ACC.冷负荷",
+    "name": "冷负荷",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "ACC_raw",
+    "system": "ACC",
+    "device_hint": null
+  },
+  {
+    "point_id": "ACC.昨天同时刻的冷负荷",
+    "name": "昨天同时刻的冷负荷",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "ACC_raw",
+    "system": "ACC",
+    "device_hint": null
+  },
+  {
+    "point_id": "ACC.上一时刻的冷负荷",
+    "name": "上一时刻的冷负荷",
+    "source_file": "某项目-456月历史数据.xlsx",
+    "sheet": "ACC_raw",
+    "system": "ACC",
+    "device_hint": null
+  },
+  {
+    "point_id": "综合.瞬时制冷量",
+    "name": "瞬时制冷量",
+    "source_file": "某项目-分钟级数据.xlsx",
+    "sheet": "Sheet1",
+    "system": "综合",
+    "device_hint": null
+  },
+  {
+    "point_id": "综合.总负荷",
+    "name": "总负荷",
+    "source_file": "某项目-分钟级数据.xlsx",
+    "sheet": "Sheet1",
+    "system": "综合",
+    "device_hint": null
+  }
+]

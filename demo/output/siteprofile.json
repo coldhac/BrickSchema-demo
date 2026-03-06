@@ -1,0 +1,342 @@
+{
+  "schema_version": "1.0",
+  "project_id": "demo_chiller_plant",
+  "project_name": "某项目冷水机房",
+  "scope_graph": {
+    "nodes": [
+      {
+        "id": "building_A",
+        "type": "building",
+        "level": 0,
+        "parent": null
+      },
+      {
+        "id": "chiller_plant",
+        "type": "chiller_plant",
+        "level": 1,
+        "parent": "building_A"
+      }
+    ],
+    "edges": [
+      {
+        "from": "chiller_06",
+        "to": "chiller_plant",
+        "relation": "isPartOf",
+        "equip_type": "Chiller"
+      },
+      {
+        "from": "chiller_07",
+        "to": "chiller_plant",
+        "relation": "isPartOf",
+        "equip_type": "Chiller"
+      },
+      {
+        "from": "chiller_08",
+        "to": "chiller_plant",
+        "relation": "isPartOf",
+        "equip_type": "Chiller"
+      },
+      {
+        "from": "chiller_09",
+        "to": "chiller_plant",
+        "relation": "isPartOf",
+        "equip_type": "Chiller"
+      },
+      {
+        "from": "chiller_01",
+        "to": "chiller_plant",
+        "relation": "isPartOf",
+        "equip_type": "Chiller"
+      },
+      {
+        "from": "chiller_02",
+        "to": "chiller_plant",
+        "relation": "isPartOf",
+        "equip_type": "Chiller"
+      },
+      {
+        "from": "chiller_03",
+        "to": "chiller_plant",
+        "relation": "isPartOf",
+        "equip_type": "Chiller"
+      },
+      {
+        "from": "chiller_04",
+        "to": "chiller_plant",
+        "relation": "isPartOf",
+        "equip_type": "Chiller"
+      },
+      {
+        "from": "chiller_05",
+        "to": "chiller_plant",
+        "relation": "isPartOf",
+        "equip_type": "Chiller"
+      },
+      {
+        "from": "pump_01",
+        "to": "chiller_plant",
+        "relation": "isPartOf",
+        "equip_type": "Chilled_Water_Pump"
+      },
+      {
+        "from": "pump_02",
+        "to": "chiller_plant",
+        "relation": "isPartOf",
+        "equip_type": "Chilled_Water_Pump"
+      },
+      {
+        "from": "pump_03",
+        "to": "chiller_plant",
+        "relation": "isPartOf",
+        "equip_type": "Chilled_Water_Pump"
+      },
+      {
+        "from": "pump_04",
+        "to": "chiller_plant",
+        "relation": "isPartOf",
+        "equip_type": "Chilled_Water_Pump"
+      },
+      {
+        "from": "pump_05",
+        "to": "chiller_plant",
+        "relation": "isPartOf",
+        "equip_type": "Chilled_Water_Pump"
+      }
+    ]
+  },
+  "resource_domains": {
+    "chiller_06": {
+      "domain_type": "cooling_resource",
+      "source_equipment": "chiller_06",
+      "brick_class": "Chiller",
+      "points": [
+        {
+          "point_id": "ACC_主机6功率",
+          "brick_class": "Electric_Power_Sensor"
+        }
+      ]
+    },
+    "chiller_07": {
+      "domain_type": "cooling_resource",
+      "source_equipment": "chiller_07",
+      "brick_class": "Chiller",
+      "points": [
+        {
+          "point_id": "ACC_主机7功率",
+          "brick_class": "Electric_Power_Sensor"
+        }
+      ]
+    },
+    "chiller_08": {
+      "domain_type": "cooling_resource",
+      "source_equipment": "chiller_08",
+      "brick_class": "Chiller",
+      "points": [
+        {
+          "point_id": "ACC_主机8功率",
+          "brick_class": "Electric_Power_Sensor"
+        }
+      ]
+    },
+    "chiller_09": {
+      "domain_type": "cooling_resource",
+      "source_equipment": "chiller_09",
+      "brick_class": "Chiller",
+      "points": [
+        {
+          "point_id": "ACC_主机9功率",
+          "brick_class": "Electric_Power_Sensor"
+        }
+      ]
+    },
+    "chiller_01": {
+      "domain_type": "cooling_resource",
+      "source_equipment": "chiller_01",
+      "brick_class": "Chiller",
+      "points": [
+        {
+          "point_id": "ACC_主机1功率",
+          "brick_class": "Electric_Power_Sensor"
+        },
+        {
+          "point_id": "WCC_主机1冷冻供水温度",
+          "brick_class": "Chilled_Water_Supply_Temperature_Sensor"
+        },
+        {
+          "point_id": "WCC_主机1冷冻回水温度",
+          "brick_class": "Chilled_Water_Return_Temperature_Sensor"
+        }
+      ]
+    },
+    "chiller_02": {
+      "domain_type": "cooling_resource",
+      "source_equipment": "chiller_02",
+      "brick_class": "Chiller",
+      "points": [
+        {
+          "point_id": "ACC_主机2功率",
+          "brick_class": "Electric_Power_Sensor"
+        },
+        {
+          "point_id": "WCC_主机2冷冻供水温度",
+          "brick_class": "Chilled_Water_Supply_Temperature_Sensor"
+        },
+        {
+          "point_id": "WCC_主机2冷冻回水温度",
+          "brick_class": "Chilled_Water_Return_Temperature_Sensor"
+        }
+      ]
+    },
+    "chiller_03": {
+      "domain_type": "cooling_resource",
+      "source_equipment": "chiller_03",
+      "brick_class": "Chiller",
+      "points": [
+        {
+          "point_id": "ACC_主机3功率",
+          "brick_class": "Electric_Power_Sensor"
+        },
+        {
+          "point_id": "WCC_主机3冷冻供水温度",
+          "brick_class": "Chilled_Water_Supply_Temperature_Sensor"
+        },
+        {
+          "point_id": "WCC_主机3冷冻回水温度",
+          "brick_class": "Chilled_Water_Return_Temperature_Sensor"
+        }
+      ]
+    },
+    "chiller_04": {
+      "domain_type": "cooling_resource",
+      "source_equipment": "chiller_04",
+      "brick_class": "Chiller",
+      "points": [
+        {
+          "point_id": "ACC_主机4功率",
+          "brick_class": "Electric_Power_Sensor"
+        },
+        {
+          "point_id": "WCC_主机4冷冻供水温度",
+          "brick_class": "Chilled_Water_Supply_Temperature_Sensor"
+        },
+        {
+          "point_id": "WCC_主机4冷冻回水温度",
+          "brick_class": "Chilled_Water_Return_Temperature_Sensor"
+        }
+      ]
+    },
+    "chiller_05": {
+      "domain_type": "cooling_resource",
+      "source_equipment": "chiller_05",
+      "brick_class": "Chiller",
+      "points": [
+        {
+          "point_id": "ACC_主机5功率",
+          "brick_class": "Electric_Power_Sensor"
+        },
+        {
+          "point_id": "WCC_主机5冷冻供水温度",
+          "brick_class": "Chilled_Water_Supply_Temperature_Sensor"
+        },
+        {
+          "point_id": "WCC_主机5冷冻回水温度",
+          "brick_class": "Chilled_Water_Return_Temperature_Sensor"
+        }
+      ]
+    },
+    "pump_01": {
+      "domain_type": "cooling_distribution",
+      "source_equipment": "pump_01",
+      "brick_class": "Chilled_Water_Pump",
+      "points": [
+        {
+          "point_id": "WCC_冷冻泵1运行频率",
+          "brick_class": "Frequency_Sensor"
+        }
+      ]
+    },
+    "pump_02": {
+      "domain_type": "cooling_distribution",
+      "source_equipment": "pump_02",
+      "brick_class": "Chilled_Water_Pump",
+      "points": [
+        {
+          "point_id": "WCC_冷冻泵2运行频率",
+          "brick_class": "Frequency_Sensor"
+        }
+      ]
+    },
+    "pump_03": {
+      "domain_type": "cooling_distribution",
+      "source_equipment": "pump_03",
+      "brick_class": "Chilled_Water_Pump",
+      "points": [
+        {
+          "point_id": "WCC_冷冻泵3运行频率",
+          "brick_class": "Frequency_Sensor"
+        }
+      ]
+    },
+    "pump_04": {
+      "domain_type": "cooling_distribution",
+      "source_equipment": "pump_04",
+      "brick_class": "Chilled_Water_Pump",
+      "points": [
+        {
+          "point_id": "WCC_冷冻泵4运行频率",
+          "brick_class": "Frequency_Sensor"
+        }
+      ]
+    },
+    "pump_05": {
+      "domain_type": "cooling_distribution",
+      "source_equipment": "pump_05",
+      "brick_class": "Chilled_Water_Pump",
+      "points": [
+        {
+          "point_id": "WCC_冷冻泵5运行频率",
+          "brick_class": "Frequency_Sensor"
+        }
+      ]
+    },
+    "chiller_plant": {
+      "domain_type": "cooling_plant",
+      "source_equipment": "chiller_plant",
+      "brick_class": "Chiller_Plant",
+      "points": [
+        {
+          "point_id": "ACC_ACC总功率",
+          "brick_class": "Electric_Power_Sensor"
+        },
+        {
+          "point_id": "综合_冷水机房总功率",
+          "brick_class": "Electric_Power_Sensor"
+        },
+        {
+          "point_id": "综合_冷水机房调整后的功率",
+          "brick_class": "Electric_Power_Sensor"
+        },
+        {
+          "point_id": "ACC_上一时刻的冷负荷",
+          "brick_class": "Thermal_Power_Sensor"
+        },
+        {
+          "point_id": "ACC_冷负荷",
+          "brick_class": "Thermal_Power_Sensor"
+        },
+        {
+          "point_id": "ACC_昨天同时刻的冷负荷",
+          "brick_class": "Thermal_Power_Sensor"
+        },
+        {
+          "point_id": "综合_总负荷",
+          "brick_class": "Thermal_Power_Sensor"
+        },
+        {
+          "point_id": "综合_瞬时制冷量",
+          "brick_class": "Thermal_Power_Sensor"
+        }
+      ]
+    }
+  }
+}
