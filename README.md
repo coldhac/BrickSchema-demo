@@ -1,4 +1,4 @@
-# Brick 语义层升级 Demo
+# Brick 语义层 Demo
 
 基于《Brick语义层升级技术方案》实现的端到端演示项目。
 
